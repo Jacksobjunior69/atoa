@@ -1,0 +1,27 @@
+docker container run -it --rm ubuntu
+apt-get update
+apt-get install git
+cd home
+mkdir workspace
+cd workspace
+apt-get install nano
+git config --global user.name "Carlos Caiado"
+git config --global user.email "carloscaiado654@hotmail.com"
+ls
+mkdir projeto
+cd projeto
+git init
+nano README.md
+git status
+git add NOME_ARQUIVO
+nano Controller.javagi
+git add Controller.java
+git commit -m "Adicionado o arquivo README.md e Controller.java"
+git branch NOME
+git branch
+git checkout NOME
+git branch
+
+
+maven 
+
